@@ -1,3 +1,5 @@
+Download the `.apk` file on your android device and share it with your friend to have fun.
+
 # BollywoodGameApp
 A 1v1 movie guessing game to play with your friends for fun.
 
