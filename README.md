@@ -29,9 +29,6 @@ A 1v1 movie guessing game to play with your friends for fun.
     1. Enter his/her name.
     2. Enter the `unique code` provided by the other player.
     3. Try to guess the `movie name`.
-  ### Winner: 
-    - **Receiver** if he guess the movie correct.
-    - **Giver** if receivier couldn't guess the movie.
   
   ## Screenshots
   Some screenshots of the program:-
