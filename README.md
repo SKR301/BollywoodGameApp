@@ -10,6 +10,7 @@ A 1v1 movie guessing game to play with your friends for fun.
   
   ## Technologies
   - Android Studio
+  - Firebase
   
   ## Setup
   How to start the program:-
@@ -21,13 +22,16 @@ A 1v1 movie guessing game to play with your friends for fun.
   ## Working
   How the game works:-
   ### Giver: The person who gives the movie.
-    1. Enter his/her name. [:camera:](https://github.com/SKR301/BollywoodGameApp/blob/master/ScreenShots/Create%20a%20room.jpg)
+    1. Enter his/her name.
     2. Send the `uniquely generated code` to other player.
-    3. Enter the `movie name` for the other player to guess. [:camera:](https://github.com/SKR301/BollywoodGameApp/blob/master/ScreenShots/Enter%20a%20movie.jpg)
+    3. Enter the `movie name` for the other player to guess.
   ### Receiver: The person who receives the movie.
-    1. Enter his/her name. [:camera:](https://github.com/SKR301/BollywoodGameApp/blob/master/ScreenShots/Join%20a%20room.jpg)
+    1. Enter his/her name.
     2. Enter the `unique code` provided by the other player.
-    3. Try to guess the `movie name`. [:camera:](https://github.com/SKR301/BollywoodGameApp/blob/master/ScreenShots/Receiver%20View.jpg)
+    3. Try to guess the `movie name`.
+  ### Winner: 
+    - **Receiver** if he guess the movie correct.
+    - **Giver** if receivier couldn't guess the movie.
   
   ## Screenshots
   Some screenshots of the program:-
