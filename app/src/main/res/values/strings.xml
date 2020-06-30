@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BollywoodGameApp</string>
+
+    <string name="start">Start</string>
+
+    <string name="receiveMovie">Receive a Movie</string>
+    <string name="giveMovie">Give a Movie</string>
+
+    <string name="createRoom">Creating a New Room…</string>
+    <string name="joinRoom">Joining a New Room…</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="enterCode">Enter code</string>
+    <string name="code">Code:</string>
+
+    <string name="gameAlphaButA">A</string>
+    <string name="gameAlphaButB">B</string>
+    <string name="gameAlphaButC">C</string>
+    <string name="gameAlphaButD">D</string>
+    <string name="gameAlphaButE">E</string>
+    <string name="gameAlphaButF">F</string>
+    <string name="gameAlphaButG">G</string>
+    <string name="gameAlphaButH">H</string>
+    <string name="gameAlphaButI">I</string>
+    <string name="gameAlphaButJ">J</string>
+    <string name="gameAlphaButK">K</string>
+    <string name="gameAlphaButL">L</string>
+    <string name="gameAlphaButM">M</string>
+    <string name="gameAlphaButN">N</string>
+    <string name="gameAlphaButO">O</string>
+    <string name="gameAlphaButP">P</string>
+    <string name="gameAlphaButQ">Q</string>
+    <string name="gameAlphaButR">R</string>
+    <string name="gameAlphaButS">S</string>
+    <string name="gameAlphaButT">T</string>
+    <string name="gameAlphaButU">U</string>
+    <string name="gameAlphaButV">V</string>
+    <string name="gameAlphaButW">W</string>
+    <string name="gameAlphaButX">X</string>
+    <string name="gameAlphaButY">Y</string>
+    <string name="gameAlphaButZ">Z</string>
+
+    <string name="player1">Player 1: -</string>
+    <string name="Player2">Player 2: -</string>
+
+    <string name="enterMovie">Enter movie</string>
+    <string name="send">Send</string>
+
+    <string name="chances_left">Chances left:</string>
+    <string name="by10">/10</string>
+    <string name="givenBy">Given By:</string>
+    <string name="noMovieYet">|Wait for Movie|</string>
+
+    <string name="receiverWon">You WON the round</string>
+    <string name="receiverLost">You LOST the round</string>
+    <string name="giverWon">Receiver could not guess the movie correctly</string>
+    <string name="giverLost">Receiver guessed the movie correctly</string>
+    <string name="won">Great JOB!!!</string>
+    <string name="lost">Better luck next time</string>
+
+
+
+    <string name="copyright">© GG games</string>
+</resources>

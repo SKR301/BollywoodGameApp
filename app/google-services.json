@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "260512923951",
+    "firebase_url": "https://bollywoodgameapp.firebaseio.com",
+    "project_id": "bollywoodgameapp",
+    "storage_bucket": "bollywoodgameapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260512923951:android:35272e7c4bd6cd451e61da",
+        "android_client_info": {
+          "package_name": "com.example.bollywoodgameapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260512923951-vvov96t2sunksta23cti8lgrgigpn7h0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bollywoodgameapp",
+            "certificate_hash": "825f25f2a248834aa49ff13420cca15a434f2c90"
+          }
+        },
+        {
+          "client_id": "260512923951-3ai52jkb0409uh52tau32b8pfd174r2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5LtJPzQQ5upS7R4kXl3vY4b4Gb2lWhRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260512923951-3ai52jkb0409uh52tau32b8pfd174r2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

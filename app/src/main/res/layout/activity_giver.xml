@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    tools:context=".GiverActivity">
+
+
+    <TextView
+        android:id="@+id/textViewChancesLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/piedra"
+        android:gravity="center"
+        android:text="@string/chances_left"
+        android:textAlignment="center"
+        android:textColor="@color/colorComplementary"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBarChancesLeft"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChancesLeft" />
+
+    <TextView
+        android:id="@+id/textViewMovieBlank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/text_bg"
+        android:fontFamily="@font/piedra"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="25dp"
+        android:text="@string/noMovieYet"
+        android:textColor="@color/colorDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBarChancesLeft" />
+
+    <TextView
+        android:id="@+id/textViewBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/piedra"
+        android:paddingStart="16dp"
+        android:text="@string/givenBy"
+        android:textColor="@color/colorComplementary"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMovieBlank"
+        tools:ignore="RtlSymmetry" />
+
+
+    <Button
+        android:id="@+id/buttonF"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButF"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonE"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBy" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButA"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBy" />
+
+    <Button
+        android:id="@+id/buttonB"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButB"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonC"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBy" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButC"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonD"
+        app:layout_constraintStart_toEndOf="@+id/buttonB"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBy" />
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButD"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonE"
+        app:layout_constraintStart_toEndOf="@+id/buttonC"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBy" />
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButE"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonF"
+        app:layout_constraintStart_toEndOf="@+id/buttonD"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBy" />
+
+    <Button
+        android:id="@+id/buttonG"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButG"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonH"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonH"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButH"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonI"
+        app:layout_constraintStart_toEndOf="@+id/buttonG"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonI"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButI"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonJ"
+        app:layout_constraintStart_toEndOf="@+id/buttonH"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonJ"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButJ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonK"
+        app:layout_constraintStart_toEndOf="@+id/buttonI"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonK"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButK"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonL"
+        app:layout_constraintStart_toEndOf="@+id/buttonJ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonL"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButL"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonK"
+        app:layout_constraintTop_toBottomOf="@+id/buttonA" />
+
+    <Button
+        android:id="@+id/buttonM"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButM"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@id/buttonN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG" />
+
+    <Button
+        android:id="@+id/buttonN"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButN"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonO"
+        app:layout_constraintStart_toEndOf="@+id/buttonM"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG" />
+
+    <Button
+        android:id="@+id/buttonO"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButO"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonP"
+        app:layout_constraintStart_toEndOf="@+id/buttonN"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG" />
+
+    <Button
+        android:id="@+id/buttonP"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButP"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonQ"
+        app:layout_constraintStart_toEndOf="@+id/buttonO"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG" />
+
+    <Button
+        android:id="@+id/buttonQ"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButQ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonR"
+        app:layout_constraintStart_toEndOf="@+id/buttonP"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG" />
+
+    <Button
+        android:id="@+id/buttonR"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButR"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonQ"
+        app:layout_constraintTop_toBottomOf="@+id/buttonG" />
+
+    <Button
+        android:id="@+id/buttonS"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButS"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@id/buttonT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonT"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButT"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonU"
+        app:layout_constraintStart_toEndOf="@+id/buttonS"
+        app:layout_constraintTop_toBottomOf="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonU"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButU"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonV"
+        app:layout_constraintStart_toEndOf="@+id/buttonT"
+        app:layout_constraintTop_toBottomOf="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonV"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButV"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonW"
+        app:layout_constraintStart_toEndOf="@+id/buttonU"
+        app:layout_constraintTop_toBottomOf="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonW"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButW"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonX"
+        app:layout_constraintStart_toEndOf="@+id/buttonV"
+        app:layout_constraintTop_toBottomOf="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonX"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButX"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonW"
+        app:layout_constraintTop_toBottomOf="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonY"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButY"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonZ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonS" />
+
+    <Button
+        android:id="@+id/buttonZ"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/btn_alphabet"
+        android:text="@string/gameAlphaButZ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonY"
+        app:layout_constraintTop_toBottomOf="@+id/buttonS" />
+
+    <Button
+        android:id="@+id/buttonEnterMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_complementary"
+        android:padding="10dp"
+        android:text="@string/enterMovie"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonY" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

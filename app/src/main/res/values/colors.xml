@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4169e1</color>
+    <color name="colorPrimaryDark">#053cd4</color>
+    <color name="colorPrimaryLight">#0bf2fa</color>
+
+    <color name="colorDark">#18191a</color>
+    <color name="colorDarkMedium">#6F6F70</color>
+    <color name="colorLightMedium">#AEB5B8</color>
+    <color name="colorLight">#eaf0f6</color>
+
+    <color name="colorComplementary">#EFD20A</color>
+    <color name="colorComplementaryDark">#B68D06</color>
+    <color name="colorComplementaryLight">#ffff66</color>
+
+    <color name="colorSuccess">#31CD1F</color>
+    <color name="colorSuccessDark">#0F8801</color>
+    <color name="colorSuccessLight">#6CED5E</color>
+
+    <color name="colorDanger">#B5120D</color>
+    <color name="colorDangerDark">#6E0A01</color>
+    <color name="colorDangerLight">#F44F4F</color>
+
+
+
+
+
+
+
+
+</resources>

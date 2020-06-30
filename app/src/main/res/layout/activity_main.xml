@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewBackground"
+        android:layout_width="495dp"
+        android:layout_height="782dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_img"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/buttonReceiveMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_complementary"
+        android:fontFamily="@font/piedra"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="15dp"
+        android:text="@string/receiveMovie"
+        android:textAlignment="center"
+        android:textColor="@color/colorDark"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewBackground"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <Button
+        android:id="@+id/buttonGiveMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/btn_complementary"
+        android:fontFamily="@font/piedra"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="25dp"
+        android:paddingTop="15dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="15dp"
+        android:text="@string/giveMovie"
+        android:textAlignment="center"
+        android:textColor="@color/colorDark"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReceiveMovie" />
+
+    <TextView
+        android:id="@+id/textViewCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/copyright"
+        android:textColor="@color/colorDark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
