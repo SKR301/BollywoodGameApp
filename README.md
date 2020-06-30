@@ -45,6 +45,6 @@ A 1v1 movie guessing game to play with your friends for fun.
   ![Receiver View](https://github.com/SKR301/BollywoodGameApp/blob/master/ScreenShots/Receiver%20View.jpg)
   
   ## Contributors
-  @SKR301- [Saurav Kumar](https://github.com/SKR301)
+  @SKR301- [Saurav Kumar](https://github.com/SKR301) <br />
   @Ritika Anand -[]()
 
